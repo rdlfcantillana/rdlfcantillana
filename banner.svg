@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Rodolfo Cantillana</title>
+  <desc id="bannerDesc">Banner editorial oscuro con el nombre Rodolfo Cantillana, la línea de rol "Backend, datos y producto. Del esquema al último botón." y la ubicación Maracaibo, Venezuela, con coordenadas y detalles geométricos.</desc>
+
+  <defs>
+    <linearGradient id="arcFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8E3D9" stop-opacity="0.22"/>
+      <stop offset="0.55" stop-color="#E8E3D9" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#E8E3D9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E0E0F"/>
+      <stop offset="0.62" stop-color="#0B0B0C"/>
+      <stop offset="1" stop-color="#08080A"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D9552F" stop-opacity="0.14"/>
+      <stop offset="0.6" stop-color="#D9552F" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#D9552F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- fondo propio: funciona igual sobre tema claro y oscuro -->
+  <rect width="1200" height="420" fill="url(#panel)"/>
+  <rect width="1200" height="420" fill="url(#ember)" opacity="0.9" transform="translate(0,-40)"/>
+  <rect x="0.5" y="0.5" width="1199" height="419" fill="none" stroke="#35312A" stroke-opacity="0.9"/>
+
+  <!-- detalle geométrico: arco y anillos concéntricos -->
+  <g fill="none">
+    <circle cx="968" cy="196" r="170" stroke="url(#arcFade)" stroke-width="1"/>
+    <circle cx="968" cy="196" r="126" stroke="#E8E3D9" stroke-opacity="0.055" stroke-width="1" stroke-dasharray="1 9"/>
+    <circle cx="968" cy="196" r="82" stroke="#E8E3D9" stroke-opacity="0.05" stroke-width="1"/>
+    <path d="M968 26 V366" stroke="#E8E3D9" stroke-opacity="0.055" stroke-width="1"/>
+    <path d="M798 196 H1138" stroke="#E8E3D9" stroke-opacity="0.055" stroke-width="1"/>
+  </g>
+  <circle cx="968" cy="196" r="3" fill="#D9552F" fill-opacity="0.85"/>
+
+  <!-- filete superior -->
+  <line x1="72" y1="86" x2="1128" y2="86" stroke="#2A2822" stroke-width="1"/>
+  <rect x="1118" y="81" width="10" height="10" fill="#D9552F"/>
+
+  <!-- rótulos -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="3.4" fill="#8B8578">
+    <text x="72" y="66">MARACAIBO — VENEZUELA</text>
+    <text x="1128" y="66" text-anchor="end" letter-spacing="2.2">10.65° N / 71.61° W</text>
+  </g>
+
+  <!-- nombre -->
+  <g font-family="Georgia, 'Iowan Old Style', 'Times New Roman', 'Liberation Serif', serif" fill="#EDE8DF" font-size="116" letter-spacing="-2.5">
+    <text x="72" y="196">Rodolfo</text>
+    <text x="72" y="306">Cantillana</text>
+  </g>
+
+  <!-- línea de rol -->
+  <text x="72" y="352" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="0.4" fill="#A8A294">Backend, datos y producto. Del esquema al último botón.</text>
+
+  <!-- regla inferior: marcas de medida -->
+  <line x1="760" y1="396" x2="1128" y2="396" stroke="#E8E3D9" stroke-opacity="0.10" stroke-width="1"/>
+  <g stroke="#E8E3D9" stroke-opacity="0.10" stroke-width="1">
+    <path d="M760 396 v-10"/><path d="M800 396 v-10"/><path d="M840 396 v-10"/><path d="M880 396 v-10"/>
+    <path d="M920 396 v-10"/><path d="M960 396 v-10"/><path d="M1000 396 v-10"/><path d="M1040 396 v-10"/>
+    <path d="M1080 396 v-10"/><path d="M1120 396 v-10"/>
+  </g>
+  <g stroke="#E8E3D9" stroke-opacity="0.18" stroke-width="1">
+    <path d="M760 396 v-16"/><path d="M880 396 v-16"/><path d="M1000 396 v-16"/><path d="M1120 396 v-16"/>
+  </g>
+</svg>

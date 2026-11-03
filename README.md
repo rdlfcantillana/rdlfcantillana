@@ -8,7 +8,9 @@
 
 ## Perfil
 
-Trabajo sobre todo en backend: APIs en TypeScript (Express y NestJS) y en Python (Flask), con bases relacionales, Redis cuando hace falta velocidad y Socket.IO cuando el producto necesita tiempo real. Después hago el resto: frontend en React, apps en Expo y Flutter, y el despliegue en Docker con TLS.
+**Ingeniero en Computación y desarrollador Full-Stack & Mobile.** Construyo plataformas web y móviles escalables: aplicaciones de consumo y operativas con React Native, Expo, React/Next.js, TypeScript y Node.js, incluyendo sistemas en tiempo real, geolocalización y backends en Go.
+
+Trabajo sobre todo en backend: APIs en TypeScript (Express y NestJS), Go y Python (Flask), con bases relacionales, Redis cuando hace falta velocidad y WebSockets cuando el producto necesita tiempo real. Después hago el resto: frontend en React, apps en Expo y Flutter, y el despliegue en Docker con TLS.
 
 Los proyectos que más me han enseñado son los que cobran: checkout, suscripciones, control de acceso por usuario y reportes que alguien usa para decidir. Me importa que el sistema aguante el uso diario, no que se vea bien en la demo.
 
@@ -19,14 +21,16 @@ Los proyectos que más me han enseñado son los que cobran: checkout, suscripcio
 <p>
   <img src="https://img.shields.io/badge/Node.js-1F1F22?style=flat-square&labelColor=0B0B0C&logo=nodedotjs&logoColor=E8E3D9" alt="Node.js">
   <img src="https://img.shields.io/badge/TypeScript-1F1F22?style=flat-square&labelColor=0B0B0C&logo=typescript&logoColor=E8E3D9" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Go-1F1F22?style=flat-square&labelColor=0B0B0C&logo=go&logoColor=E8E3D9" alt="Go">
   <img src="https://img.shields.io/badge/Express-1F1F22?style=flat-square&labelColor=0B0B0C&logo=express&logoColor=E8E3D9" alt="Express">
   <img src="https://img.shields.io/badge/NestJS-1F1F22?style=flat-square&labelColor=0B0B0C&logo=nestjs&logoColor=E8E3D9" alt="NestJS">
+  <img src="https://img.shields.io/badge/Gin-1F1F22?style=flat-square&labelColor=0B0B0C&logo=gin&logoColor=E8E3D9" alt="Gin">
   <img src="https://img.shields.io/badge/Python-1F1F22?style=flat-square&labelColor=0B0B0C&logo=python&logoColor=E8E3D9" alt="Python">
   <img src="https://img.shields.io/badge/Flask-1F1F22?style=flat-square&labelColor=0B0B0C&logo=flask&logoColor=E8E3D9" alt="Flask">
   <img src="https://img.shields.io/badge/Socket.IO-1F1F22?style=flat-square&labelColor=0B0B0C&logo=socketdotio&logoColor=E8E3D9" alt="Socket.IO">
 </p>
 
-REST · JWT · Passport · bcrypt · Helmet · rate limit · CORS · Nodemailer · Celery · Gunicorn · Pydantic · Typer · Pug · Jinja2 · Mako
+REST · WebSockets + SSE · JWT · RBAC · Passport · bcrypt · Helmet · rate limit · CORS · Nodemailer · GORM · Celery · Gunicorn · Pydantic · Typer · Pug · Jinja2 · Mako
 
 #### DATOS
 
@@ -47,6 +51,7 @@ SQLAlchemy + Alembic · Mongoose · migraciones con Prisma · caché y colas · 
   <img src="https://img.shields.io/badge/Vite-1F1F22?style=flat-square&labelColor=0B0B0C&logo=vite&logoColor=E8E3D9" alt="Vite">
   <img src="https://img.shields.io/badge/Next.js-1F1F22?style=flat-square&labelColor=0B0B0C&logo=nextdotjs&logoColor=E8E3D9" alt="Next.js">
   <img src="https://img.shields.io/badge/Tailwind_CSS-1F1F22?style=flat-square&labelColor=0B0B0C&logo=tailwindcss&logoColor=E8E3D9" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/shadcn%2Fui-1F1F22?style=flat-square&labelColor=0B0B0C&logo=shadcnui&logoColor=E8E3D9" alt="shadcn/ui">
 </p>
 
 React Router · React Query · React Hook Form + Zod · Lucide
@@ -58,7 +63,7 @@ React Router · React Query · React Hook Form + Zod · Lucide
   <img src="https://img.shields.io/badge/Flutter_/_Dart-1F1F22?style=flat-square&labelColor=0B0B0C&logo=flutter&logoColor=E8E3D9" alt="Flutter y Dart">
 </p>
 
-React Navigation · Reanimated · Gesture Handler · AsyncStorage · Firebase Cloud Messaging · PySide6
+React Navigation · Reanimated · Gesture Handler · AsyncStorage · geolocalización en tiempo real · notificaciones push (Firebase Cloud Messaging) · PySide6
 
 #### PAGOS E IA
 
@@ -77,7 +82,7 @@ Compose multi-servicio (API, worker, frontend, base de datos, Redis, proxy) · T
 
 #### CALIDAD
 
-ESLint · Prettier · Husky · lint-staged · commitlint · Turborepo · TypeScript estricto · CI separado por backend, frontend, mobile y e2e
+ESLint · Prettier · Jest · Sentry · Husky · lint-staged · commitlint · Git Flow · Turborepo · TypeScript estricto · CI separado por backend, frontend, mobile y e2e
 
 ## También público
 
